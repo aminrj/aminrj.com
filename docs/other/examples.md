@@ -66,3 +66,13 @@ def bubble_sort(items):
 :fontawesome-brands-twitter:{ .twitter }
 
 :octicons-heart-fill-24:{ .heart }
+
+## Images
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+## Links
+
+https://github.com - automatic!
+[GitHub](https://github.com)

@@ -1,5 +1,23 @@
 site_name: Hands-on DevSecOps
 # site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+
+nav:
+  - Home: index.md
+  - Kubernetes: 
+    - ArgoCD deployemnt patterns: k8s/argocd-deployment-patterns.md
+  - Observability: 
+    - Getting started with Loki & Grafana: observability/getting-started-with-loki-grafana.md
+    - Monitoring k8s audit logs with Grafana: observability/monitoring-k8s-audit-logs-with-grafana.md
+  - Other Topics: 
+    - Mkdocs Examples: other/examples.md
+  # - Supply Chain Security: devsecops-tools.md
+  # - DevSecOps Pipeline: devsecops-pipeline.md
+  # - DevSecOps Implementation: devsecops-implementation.md
+  # - DevSecOps Challenges: devsecops-challenges.md
+  # - DevSecOps Conclusion: devsecops-conclusion.md
+  # - DevSecOps References: devsecops-references.md
+  # - DevSecOps About: devsecops-about.md
+
 theme:
   name: material
   features:
