@@ -3,8 +3,13 @@ site_name: Hands-on DevSecOps
 
 nav:
   - Home: index.md
+  - Cloud-Native:
+    - Getting started with Cloud-Native: cloud-native/introduction-to-CN-technology.md
+  - AI:
+    - Getting started with LangChain: AI/getting-started-with-langchain.md
   - Kubernetes: 
     - ArgoCD deployemnt patterns: k8s/argocd-deployment-patterns.md
+    - Continuous security scanning with Kuberscape: k8s/continuous-security-monitoring-with-kubescape.md
   - Observability: 
     - Getting started with Loki & Grafana: observability/getting-started-with-loki-grafana.md
     - Monitoring k8s audit logs with Grafana: observability/monitoring-k8s-audit-logs-with-grafana.md
@@ -71,8 +76,8 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
   &copy; 2024 <a href="https://aminrj.com"  target="_blank" rel="noopener">Amine Raji</a>
