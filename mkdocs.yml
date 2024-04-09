@@ -4,7 +4,11 @@ site_name: Hands-on DevSecOps
 nav:
   - Home: index.md
   - Cloud-Native:
-    - Getting started with Cloud-Native: cloud-native/introduction-to-CN-technology.md
+    - Getting started with Cloud-Native: cloud-native/1-introduction-to-CN-technology.md
+    - Kubernetes core concepts: cloud-native/2-kubernetes-core-concepts.md
+    - GitOps with Kustomize and Helm: cloud-native/3-gitops-with-helm-kustomize.md
+    - Infrastructure as Code with Terraform: cloud-native/4-iac-with-terraform.md
+    - CI/CD with Github Actions and Drone: cloud-native/5-ci-cd-with-github-actions-and-drone.md
   - AI:
     - Getting started with LangChain: AI/getting-started-with-langchain.md
   - Kubernetes: 
