@@ -3,6 +3,8 @@ site_name: Hands-on DevSecOps
 
 nav:
   - Home: index.md
+  - Kafka:
+    - Deploying Kafka with Strimzi on Minikube: kafka/deploying-kafka-with-strimzi-on-minikube.md
   - Cloud-Native:
     - Getting started with Cloud-Native: cloud-native/1-introduction-to-CN-technology.md
     - Kubernetes core concepts: cloud-native/2-kubernetes-core-concepts.md
